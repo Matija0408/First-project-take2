@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/*-------------------------------------------------Colours*/
+
+.bg-color-name-title {
+    background-color: gray;
+}
+
+/*-------------------------------------------------Colours*/
+/*-------------------------------------------------Heading*/
+header {
+    margin: 0;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+.heading {
+    padding: 20px 20px 20px 50px;
+    color: #fff  
+}
+
+.heading:hover {
+    color: #fff
+}
+
+.title {
+    font-family: "Courgette", sans-serif;
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
+}
