@@ -124,35 +124,89 @@ main h3 {
 
 
 .what-i-use {
-    position: relative;
-    left:35%;
+    background-color: #d8dfe5;
+    border: 1px solid #d8dfe5;
+    border-radius: 102px 0px 102px 0px;
+    -moz-border-radius: 102px 0px 102px 0px;
+    -webkit-border-radius: 102px 0px 102px 0px;
+    border: 1px solid #d8dfe5;
     margin-top: 30px;
+    padding-left: 12%;
 }
 
+.html {
+    color: #e44d26;
+}
+
+.css {
+    color: #264de4;
+}
+
+.js {
+    color: #ffc107;
+}
 .my-work, h3 {
     margin-bottom: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
+    margin-top: 15px;
 }
 
 .site1 img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    margin-top: 15px;
 }
 
 .site1 {
-    background-color: rgb(222, 225, 232);
-    padding-top: 20px;
+    background-color: rgb(202, 208, 220);
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 .site1 h4 {
-    padding-top: 34%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 10px 0;
 }
 
 .site1p {
     padding-top: 4%;
+}
+
+.site1p a {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+
+.button-live {
+    color: #fff;
+    margin-right: 10px;
+    text-transform: uppercase;
+    background-color: rgba(255, 54, 54, 0.8);
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button-github {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(87, 188, 219);
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.project-description {
+    margin: 10% 0;
 }
 
 
@@ -200,6 +254,15 @@ main h3 {
 @media (max-width: 414px) {
     .site1 h4 {
         padding-top: 10%;
+    }
+}
+
+@media (max-width: 414px) {
+    .what-i-use {
+        background-color: #d8dfe5;
+        border: 1px solid #d8dfe5;
+        margin-top: 30px;
+        padding-left: 33%;
     }
 }
 /*Media queries*/
