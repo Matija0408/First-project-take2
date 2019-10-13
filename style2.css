@@ -75,16 +75,19 @@ header,
     color:rgb(197, 57, 151);
 }
 
-.header-quote {
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.main-title-quote {
     font-family: "Courgette", sans-serif;
     font-size: 17px;
     letter-spacing: 1px;
     position: relative;
-    top: 32%;
-    left: 38%;
-    width: 400px;
+    top: 20vh;
+    padding: 10px;
 }
-
 /*Header ++ Home Page*/
 
 /*About*/
@@ -228,6 +231,52 @@ main h3 {
 
 
 /*About*/
+
+/*Contact page*/
+
+.bg-contact {
+    background: url("img/lets_start.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact-position {
+    margin-top: 130px;
+}
+
+textarea.form-control {
+    min-height: 180px;
+    width: 340px;
+}
+
+textarea {
+
+    overflow: auto;
+    resize: both;
+}
+
+.contact-main{
+    margin: 0;
+    padding: 0;
+}
+
+.form-input {
+    width: 340px;
+    margin: 20px 0 20px 20px;
+}
+
+.textarea-contact {
+    margin: 20px;
+}
+
+.button {
+    margin-left: 20px;
+    border-radius: 10%;
+    background-color: silver;
+}
+/*Contact page*/
 
 /*Media queries*/
 
